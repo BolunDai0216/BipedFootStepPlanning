@@ -1,0 +1,24 @@
+{
+    "g": 9.81,
+    "dt": 0.1,
+    "preview_horizon": 24,
+    "step_time": 0.8,
+    "start_foot": "left",
+    "foot_x": 0.25,
+    "foot_y": 0.16,
+    "vx": 0.3,
+    "vy": 0.0,
+    "state_dim": 3,
+    "rnn_units": 16,
+    "batch_size": 64,
+    "total_iters": 100000,
+    "lr_bounds": [
+        1000,
+        2000
+    ],
+    "lrs": [
+        1e-3,
+        1e-5,
+        1e-6
+    ]
+}
